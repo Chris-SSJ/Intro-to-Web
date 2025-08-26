@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click + Rocker Paper Scissors</title>
+    <!-- Save this for the stylesheet-->
+</head> 
+    <body>
+        <div class ="Game-wrapper">
+
+            <!-- Click Me game-->
+             <div class ="container">
+                <h1>First Click Me Game</h1>
+                <p>Score: <span id ="score">0</span> </p>
+                <button id="click-button">Click Me!</button>
+             </div>
+             <!-- Rock Paper Scissors Game-->
+              <div class ='container'>
+                <h1>Rock Paper Scissors</h1>
+                <button class ='rps' data-choice ='rock'> Rock</button>
+                <button class ='rps' data-choice ='paper'> Paper</button>
+                <button class ='rps' data-choice ='scissors'> Scissors</button>  
+                </div>
+                <p>You choose: <span id ="player-choice">-</span></p>
+                <p>Computer chose: <span id ="computer-choice">-</span></p>
+                <p>Result: <span id ="result">-</span></p>
+              </div>
+        </div>
+        <script src="clickerScript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess A Number</title>
+  <link rel="stylesheet" href="guessLab.css">
+</head>
+<body>
+  <h1>Guess a Number Between 1 and 100</h1>
+  
+  <div class="game-wrapper">
+    <div class="container">
+      <input type="text" id="my_input" placeholder="Enter 1-100">
+      <button id="my_button" class="btn">Submit</button>
+    </div>
+
+    <div class="container">
+      <p id="feedback"></p>
+        <p id="randomNumber">Random Number: <span id="number"></span></p>
+      <p id="attempts">Total Guesses: <span>0</span></p>
+    </div>
+
+    <div id="winGif">
+        <img id="winImage" src="" alt="You Win!" style="display:none;">
+    </div>
+  </div>
+
+  <script src="GuessNumber.js"></script>
+</body>
+</html>

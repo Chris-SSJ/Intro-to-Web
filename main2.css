@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ff5100;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    max-width: 100%;
+    width: fit-content;
+    margin: auto;
+    background-image: url("desert.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 2.5rem;
+}
+
+
+.container {
+    width: 960px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header {
+    color: #ff8d58;
+    padding: 50px;
+    margin: 10px ;
+    text-align: left;
+    font-size: 2rem;
+}
+
+
+footer {
+    font-family: 'Times New Roman';
+    color: #8F9779;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about p{
+    margin: 20px 0;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 0;
+    background-color:#ff8d58;
+
+}
+
+a{
+    color:#ff5100;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+
